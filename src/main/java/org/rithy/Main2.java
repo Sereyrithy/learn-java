@@ -27,8 +27,10 @@ public class Main2 {
 //        System.out.println("A = " + a);
 //        System.out.println("B = " + b);
 
+//////////////////////////////////////////////////
+            // Logical Operator //
+//////////////////////////////////////////////////
 
-        // Logical Operator
 //        int a = 30, b = 20;
 //        System.out.println("A= " + a + "\tB= " + b);
 //
@@ -53,8 +55,9 @@ public class Main2 {
 //        System.out.println("Round: " + Math.round(23.75));
 //        System.out.println("Random: " + Math.random() * 10);
 
-
-        // String
+//////////////////////////////////////////////////
+                  // String //
+//////////////////////////////////////////////////
 
 //        String greeting = "Hello";
 //        System.out.println("Hello length of greeting: " + greeting.length());
@@ -75,6 +78,9 @@ public class Main2 {
 //        System.out.println("Hello \nWorld");
 //        System.out.println("Hello \t World");
 
+//////////////////////////////////////////////////
+           // Control flow statement //
+//////////////////////////////////////////////////
 
         //        if (20 < 25) {
 //            System.out.println("20 is bigger than 25");
@@ -91,14 +97,70 @@ public class Main2 {
 //        } else if (20 > 30) {
 //            System.out.println("20 is bigger than 30");
 //        } else {
-//            System.out.println("30 is bigger then 20 and 10");
+//            System.out.println("30 is bigger than 20 and 10");
 //        }
 
-        String result = (20 > 18) ? ((20 < 19) ? "Good Day" : "Best Day") : "Good Evening";
-        String value = (20 > 10) ? "Good" : "Not good";
-        System.out.println("Hello " + result);
-        System.out.println(value);
+//        String result = (20 > 18) ? ((20 < 19) ? "Good Day" : "Best Day") : "Good Evening";
+//        String value = (20 > 10) ? "Good" : "Not good";
+//        System.out.println("Hello " + result);
+//        System.out.println(value);
 
+
+//////////////////////////////////////////////////
+                    // Loop //
+//////////////////////////////////////////////////
+
+        // infinite loop //
+//        while (true) {
+//            System.out.println("Hello");
+//        }
+
+        // While Loop //
+//        int i = 0;
+//        while (i < 5) {
+//            System.out.println("hello " + i);
+//            i++;
+//        }
+
+        // Do While Loop //
+//        int i = 0;
+//        do {
+//            System.out.println("Hello " + i);
+//            i ++;
+//        } while (i < 5);
+
+        // for loop //
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("Hello ForLoop1 " + i);
+//        }
+
+//        int i = 0;
+//        for (; i < 5;) {
+//            System.out.println("Hello ForLoop2 " + i);
+//            i++;
+//        }
+
+        // Break //
+//        int i = 0;
+//        while (i < 5) {
+//            if (i == 2) break;
+//            System.out.println("hello " + i);
+//            i++;
+//        }
+
+        // using continue keyword //
+//        int i = 0;
+//        while (i < 5) {
+//            if (i == 2) {
+//                i++;
+//                continue;
+//            }
+//            System.out.println("Hello " + i);
+//            i++;
+//        }
+
+        long[] number = {1,2,3,4,5};
+        System.out.println("My number = " + number[4]);
 
     }
 }
