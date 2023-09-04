@@ -27,6 +27,7 @@ public class Main2 {
 //        System.out.println("A = " + a);
 //        System.out.println("B = " + b);
 
+
         // Logical Operator
 //        int a = 30, b = 20;
 //        System.out.println("A= " + a + "\tB= " + b);
@@ -53,6 +54,50 @@ public class Main2 {
 //        System.out.println("Random: " + Math.random() * 10);
 
 
+        // String
+
+//        String greeting = "Hello";
+//        System.out.println("Hello length of greeting: " + greeting.length());
+//        System.out.println("Hello greeting in upper case: " + greeting.toUpperCase());
+//        System.out.println("Hello greeting in lower case: " + greeting.toLowerCase());
+//
+//        String greetingText = "Hello World From World";
+//        System.out.println("Hello Index of World: " + greetingText.indexOf("World"));
+//
+//        String firstName = "John";
+//        String lastName = "Doe";
+//        System.out.println("Hello Full Name 1: " + firstName + " " + lastName);
+//        System.out.println("Hello Full Name 2: " + firstName.concat(" ").concat(lastName).concat(" Hello"));
+//
+//        System.out.println("Hello \"World\"");
+//        System.out.println("Hello 'World'");
+//        System.out.println("Hello \\\\ World");
+//        System.out.println("Hello \nWorld");
+//        System.out.println("Hello \t World");
+
+
+        //        if (20 < 25) {
+//            System.out.println("20 is bigger than 25");
+//        }
+//
+//        if (20 < 18) {
+//            System.out.println("20 is bigger than 18");
+//        } else {
+//            System.out.println("18 is smaller than 20");
+//        }
+//
+//        if (10 > 30) {
+//            System.out.println("10 is bigger than 30");
+//        } else if (20 > 30) {
+//            System.out.println("20 is bigger than 30");
+//        } else {
+//            System.out.println("30 is bigger then 20 and 10");
+//        }
+
+        String result = (20 > 18) ? ((20 < 19) ? "Good Day" : "Best Day") : "Good Evening";
+        String value = (20 > 10) ? "Good" : "Not good";
+        System.out.println("Hello " + result);
+        System.out.println(value);
 
 
     }
