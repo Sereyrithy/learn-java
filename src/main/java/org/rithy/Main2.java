@@ -107,7 +107,7 @@ public class Main2 {
 
 
 //////////////////////////////////////////////////
-                    // Loop //
+                   // Loop //
 //////////////////////////////////////////////////
 
         // infinite loop //
@@ -159,8 +159,43 @@ public class Main2 {
 //            i++;
 //        }
 
-        long[] number = {1,2,3,4,5};
-        System.out.println("My number = " + number[4]);
+//////////////////////////////////////////////////
+                  // Array //
+//////////////////////////////////////////////////
+
+//        long[] number = {1,2,3,4,5};
+//        System.out.println("My number = " + number[4]);
+//        // modify more //
+//        number[4] = 100;
+//        System.out.println("My 2nd number = " + number[4]);
+//
+//        System.out.println("Hello my number length: " + number.length);
+//        System.out.println("Hello last length: " + number[number.length - 1]);
+
+//        for (int i = 0; i < number.length; i++) {
+//            System.out.println("Hello Number: " + number[i]);
+//        }
+
+//        int index = 0;
+//        for (long i : number) {
+//            System.out.println("Hello number: " + (index++));
+//        }
+
+//        int [][] numbers = {{1,2,3,4}, {5,6,7}, {}};
+//        System.out.println("Hello number length: " + numbers.length);
+//        System.out.println("Hello number array: " +numbers[0].length);
+//        System.out.println("Hello number 3: " + numbers[0][2]);
+//        System.out.println("Hello number 6: " + numbers[1][1]);
+//
+//        // modify //
+//        numbers[0][2] = 30;
+//        System.out.println("Hello number 3: " + numbers[0][2]);
+//
+//        for (int i = 0; i < numbers.length; i++) {
+//            for (int j = 0; j < numbers[i].length; j++) {
+//                System.out.println("All numbers: " + numbers[i][j]);
+//            }
+//        }
 
     }
 }
